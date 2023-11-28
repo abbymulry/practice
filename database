@@ -1,0 +1,82 @@
+-- Create the database
+CREATE DATABASE IF NOT EXISTS hospital_database;
+USE hospital_database;
+
+-- Create a table for hospitals
+CREATE TABLE IF NOT EXISTS hospitals (
+    hospital_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    city VARCHAR(255) NOT NULL
+);
+
+-- Insert sample data into the hospitals table
+INSERT INTO hospitals (name, city) VALUES
+    ('General Hospital', 'City A'),
+    ('Medical Center', 'City B'),
+    ('Community Hospital', 'City C'),
+    ('City Regional Hospital', 'City D');
+
+-- Create a table for departments
+CREATE TABLE IF NOT EXISTS departments (
+    department_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    building VARCHAR(255) NOT NULL,
+    floor INT NOT NULL
+);
+
+-- Insert sample data into the departments table
+INSERT INTO departments (name, building, floor) VALUES
+    ('Cardiology', 'Main Building', 3),
+    ('Orthopedics', 'East Wing', 2),
+    ('Pediatrics', 'West Wing', 1),
+    ('Oncology', 'South Building', 4);
+
+-- Create a table for practitioners
+CREATE TABLE IF NOT EXISTS practitioners (
+    practitioner_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    profession VARCHAR(255) NOT NULL,
+    specialty VARCHAR(255)
+);
+
+-- Insert sample data into the practitioners table
+INSERT INTO practitioners (name, profession, specialty) VALUES
+    ('Dr. Smith', 'Physician', 'Cardiology'),
+    ('Dr. Johnson', 'Surgeon', 'Orthopedics'),
+    ('Dr. Williams', 'Pediatrician', 'Pediatrics'),
+    ('Dr. Davis', 'Oncologist', 'Oncology');
+
+-- Create a table for patients
+CREATE TABLE IF NOT EXISTS patients (
+    patient_id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    birthdate DATE,
+    gender VARCHAR(10),
+    diagnosis VARCHAR(255),
+    triage VARCHAR(20)
+);
+
+-- Insert sample data into the patients table
+INSERT INTO patients (first_name, last_name, birthdate, gender, diagnosis, triage) VALUES
+    ('John', 'Doe', '1990-05-15', 'Male', 'Hypertension', 'Green'),
+    ('Jane', 'Smith', '1985-08-22', 'Female', 'Fractured Arm', 'Yellow'),
+    ('Michael', 'Johnson', '1972-11-10', 'Male', 'Influenza', 'Red'),
+    ('Emily', 'Williams', '1995-03-28', 'Female', 'Allergies', 'Blue');
+
+-- Create a table for visits
+CREATE TABLE IF NOT EXISTS visits (
+    visit_id INT AUTO_INCREMENT PRIMARY KEY,
+    visit_date DATE NOT NULL,
+    patient_id INT,
+    practitioner_id INT,
+    FOREIGN KEY (patient_id) REFERENCES patients(patient_id),
+    FOREIGN KEY (practitioner_id) REFERENCES practitioners(practitioner_id)
+);
+
+-- Insert sample data into the visits table
+INSERT INTO visits (visit_date, patient_id, practitioner_id) VALUES
+    ('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
