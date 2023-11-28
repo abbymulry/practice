@@ -79,10 +79,13 @@ CREATE TABLE IF NOT EXISTS departments (
 
 -- Insert sample data into the departments table
 INSERT INTO departments (name, building, floor) VALUES
-    ('Cardiology', 'Main Building', 3),
-    ('Orthopedics', 'East Wing', 2),
-    ('Pediatrics', 'West Wing', 1),
-    ('Oncology', 'South Building', 4);
+(‘Burn Center’, ‘Emergency Room’, 1); 
+(‘Trama Center’, ‘Emergency Room’, 1); 
+(‘Fetal Surgery’, ‘NICU’, 4); 
+(‘Cardiology’, ‘Operating Room’, 3); 
+(‘Neurology’, ‘Operating Room’, 3); 
+(‘General Surgeon’, ‘Operating Room’, 3); 
+(‘ENT’, ‘Emergency Room’, 5); 
 
 -- Create a table for practitioners
 CREATE TABLE IF NOT EXISTS practitioners (
