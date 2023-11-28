@@ -11,13 +11,63 @@ CREATE TABLE IF NOT EXISTS hospitals (
 
 -- Insert sample data into the hospitals table
 INSERT INTO hospitals (name, city) VALUES
-    ('General Hospital', 'City A'),
-    ('Medical Center', 'City B'),
-    ('Community Hospital', 'City C'),
-    ('City Regional Hospital', 'City D'); 
     ('Atmore Community Hospital', 'Atmore'); 
     ('Bryce Hospital', 'Tuscaloosa'); 
     ('Crossbridge Behavioral Health', 'Montgomery'); 
+    (‘Arizona State Hospital’, ‘Pheonix’); 
+    (‘California Hospital Medical Center’, ‘Los Angeles’); 
+    (‘Aspen Valley Hospital’, ‘Aspen’); 
+    (‘Connecticut Children’s Medical Center’, ‘Hartford)’; 
+    (‘Delaware Hospital’, ‘Wilmington’); 
+    (‘Riverside Hospital’, ‘Wilmington’); 
+    (‘Baptist Hospital of Miami’, ‘Miami’); 
+    (‘Miami City Hospital’, ‘Miami’); 
+    (‘Tallahassee Memorial Hospital’, ‘Tallahassee’); 
+    (‘Orlando Regional Medical Center’, ‘Orlando’); 
+    (‘AdventHealth Gordon’, ‘Calhoun’); 
+    (‘AdventHealth Gordon’, ‘Chatsworth’); 
+    (‘Augusta University Children's Hospital of Georgia’, ‘Augusta’); 
+    (‘Bleckley Memorial Hospital’, ‘Cochran’); 
+    (‘Candler Hospital’, ‘Savannah’); 
+    (‘Crisp Regional Hospital’, ‘Cordele’); 
+    (‘Donalsonville Hospital’, ‘Donalsonville’); 
+    (‘Effingham Hospital’, ‘Springfield’); 
+    (‘Emory University Hospital’, ‘Atlanta’); 
+    (‘Hamilton Medical Center’, ‘Dalton’); 
+    (‘Hilo Medical Center’, ‘Hilo’); 
+    (‘Kohala Hospital’, ‘Kapaau’); 
+    (‘Cancer Institute of Maui’, ‘Wailuku’); 
+    (‘REHAB Hospital of The Pacific’, ‘Honolulu’); 
+    (‘The Queen’s Medical Center’, ‘Honolulu’); 
+    (‘Bear Lake Memorial Hospital’, ‘Montpelier’); 
+    (‘Boise Veterans Affairs Medical Center’, ‘Boise’); 
+    (‘Bonner General Hospital’, ‘Sand Point’); 
+    (‘Idaho Falls Community Hospital’, ‘Idaho Falls’); 
+    (‘Madison Memorial Hospital’, ‘Rexburg’); 
+    (‘Saint Alphonsus Regional Medical Center’, ‘Boise’); 
+    (‘Advocate Condell Medical Center’, ‘Libertyville’); 
+    (‘Advocate Good Shepherd Hospital’, ‘Barrington’); 
+    (‘Advocate Trinity Hospital’, ‘Chicago’); 
+    (‘Anderson Hospital’, ‘Maryville’); 
+    (‘Carle Eureka Hospital’, ‘Eureka’); 
+    (‘Crawford Memorial Hospital’, ‘Robinson’); 
+    (‘Fairfield Memorial Hospital’, ‘Fairfield’); 
+    (‘Garfield Park Behavioral Hospital’, ‘Chicago’); 
+    (‘Harrisburg Medical Center’, ‘Harrisburg’); 
+    (‘Hartgrove Hospital’, ‘Chicago’); 
+    (‘East Jefferson General Hospital’, ‘Metairie’); 
+    (‘Tulane-Lakeside Hospital’, ‘Metairie’); 
+    (‘Brentwood Hospital’, ‘Shreveport’); 
+    (‘Shriners Hospital’, ‘Shreveport’); 
+    (‘Maine General Medical Center’, ‘Augusta’); 
+    (‘Mount Desert Island Hospital’, ‘Bar Harbor’); 
+    (‘Southern Maine HealthCare’, ‘Biddeford’); 
+    (‘Grace Medical Center’, ‘Baltimore’); 
+    (‘Johns Hopkins Hospital’, ‘Baltimore’); 
+    (‘Atlantic General Hospital’, ‘Berlin’); 
+    (‘Amesbury Health Center’, ‘Amesbury’); 
+    (‘Boston Medical Center’, ‘Boston’); 
+    (‘Massachusetts General Hospital’, ‘Boston’); 
     
 -- Create a table for departments
 CREATE TABLE IF NOT EXISTS departments (
