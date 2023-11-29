@@ -153,6 +153,78 @@ INSERT INTO practitioners (name, profession, specialty) VALUES
     ('Dr. Johnson', 'Surgeon', 'Orthopedics'),
     ('Dr. Williams', 'Pediatrician', 'Pediatrics'),
     ('Dr. Davis', 'Oncologist', 'Oncology');
+    ('Dr. MacKenzie', 'Phychologist', 'Psychology'),
+    ('Dr. Lacroix', 'Surgeon', 'Trauma'),
+    ('Dr. Hazelton', 'Surgeon', 'Trauma'),
+    ('Dr. Sharkey', 'Surgeon', 'Trauma');
+    ('Dr. Worth', 'Surgeon', 'Trauma'),
+    ('Dr. Dickenson', 'Surgeon', 'Trauma'),
+    ('Dr. Dickens', 'Surgeon', 'Trauma'),
+    ('Dr. Rausch', 'Oncologist', 'Oncology');
+    ('Dr. Geary', 'Oncologist', 'Oncology'),
+    ('Dr. Grissom', 'Oncologist', 'Oncology'),
+    ('Dr. Karev', 'Oncologist', 'Oncology'),
+    ('Dr. Bellu', 'Oncologist', 'Oncology'),
+    ('Dr. Bounto', 'Oncologist', 'Oncology'),
+    ('Dr. Renton', 'Surgeon', 'Orthopedics'),
+    ('Dr. Jeanne', 'Surgeon', 'Orthopedics'),
+    ('Dr. Enzo', 'Dermatologist', 'Dermatology'),
+    ('Dr. Esper', 'Dermatologist', 'Dermatology'),
+    ('Dr. Richmonf', 'Dermatologist', 'Dermatology'),
+    ('Dr. St. Hilaire', 'Dermatologist', 'Dermatology'),
+    ('Dr. Torname', 'Dermatologist', 'Dermatology'),
+    ('Dr. McGinn', 'Dermatologist', 'Dermatology'),
+    ('Dr. Hayes', 'Pathologist', 'Pathology'),
+    ('Dr. Glynn', 'Pathologist', 'Pathology'),
+    ('Dr. Desmond', 'Pathologist', 'Pathology'),
+    ('Dr. Barnett', 'Pathologist', 'Pathology'),
+    ('Dr. Murphy', 'Surgeon', 'Orthopedics'),
+    ('Dr. Lumar', ‘Ophthalmologist’, ‘Ophthalmology’),
+    ('Dr. Holmes', ‘Ophthalmologist’, ‘Ophthalmology’),
+    ('Dr. Biana', ‘Ophthalmologist’, ‘Ophthalmology’),
+    ('Dr. Kelso', ‘Ophthalmologist’, ‘Ophthalmology’),
+    ('Dr. Gray', ‘Ophthalmologist’, ‘Ophthalmology’),
+    ('Dr. White', ‘Ophthalmologist’, ‘Ophthalmology’);
+    ('Dr. Black', ‘Ophthalmologist’, ‘Ophthalmology’),
+    ('Dr. Jamison', 'Neurologist', 'Neurology'),
+    ('Dr. Frank', ‘Neonatology', ‘Neonatologist'),
+    ('Dr. Levine', ‘Neonatology', ‘Neonatologist'),
+    ('Dr. Farsky', ‘Neonatology', ‘Neonatologist'),
+    ('Dr. Cunningham', ‘Neonatology', ‘Neonatologist'),
+    ('Dr. Boniol', ‘Neonatology', ‘Neonatologist'),
+    ('Dr. Wilson', ‘Neonatology', ‘Neonatologist');
+    ('Dr. Jordan', ‘Rheumatology’, ‘Rheumatologist’),
+    ('Dr. George', ‘Rheumatology’, ‘Rheumatologist’),
+    ('Dr. Hamilton', ‘Rheumatology’, ‘Rheumatologist’),
+    ('Dr. Deluca', ‘Rheumatology’, ‘Rheumatologist’),
+    ('Dr. Helm', ‘Rheumatology’, ‘Rheumatologist’),
+    ('Dr. Harambe', ‘Rheumatology’, ‘Rheumatologist’),
+    ('Dr. Mender', ‘Pulmonology’, ‘Pulmonologist’),
+    ('Dr. Bork', ‘Pulmonology’, ‘Pulmonologist’);
+    ('Dr. Landon', ‘Pulmonology’, ‘Pulmonologist’),
+    ('Dr. Jones', ‘Pulmonology’, ‘Pulmonologist’),
+    ('Dr. France', ‘Pulmonology’, ‘Pulmonologist’),
+    ('Dr. Fork', ‘Pulmonology’, ‘Pulmonologist’),
+    ('Dr. James', ‘Pulmonology’, ‘Pulmonologist’),
+    ('Dr. Pena', 'Surgeon', 'ENT'),
+    ('Dr. Diamond', 'Surgeon', 'ENT'),
+    ('Dr. Henderson', 'Surgeon', 'ENT');
+    ('Dr. Russo', 'Surgeon', 'ENT'),
+    ('Dr. Cardenes', 'Surgeon', 'ENT'),
+    ('Dr. Patel', 'Surgeon', 'ENT'),
+    ('Dr. Mulry', 'Surgeon', 'General');
+    ('Dr. Sanddown', 'Resident', 'Cardiology'),
+    ('Dr. Windham', 'Resident', 'Pathology'),
+    ('Dr. Pelham', 'Resident', 'Radiology'),
+    ('Dr. Methuen', 'Resident', 'Oncology');
+    ('Dr. Derry', 'Cheif', 'Radiology'),
+    ('Dr. Nash', 'Cheif', 'Orthopedics'),
+    ('Dr. Boston', 'Chief', 'Pediatrics'),
+    ('Dr. Haverhill', 'Intern', 'Oncology');
+    ('Dr. Salem', 'Intern', 'Pathology'),
+    ('Dr. Lowell', 'Intern', 'Orthopedics'),
+    ('Dr. Foreman', 'Pathologist', 'Pathology'),
+    ('Dr. Burke', 'Radiologist', 'Radiology');
 
 -- Create a table for patients
 CREATE TABLE IF NOT EXISTS patients (
