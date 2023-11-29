@@ -239,10 +239,66 @@ CREATE TABLE IF NOT EXISTS patients (
 
 -- Insert sample data into the patients table
 INSERT INTO patients (first_name, last_name, birthdate, gender, diagnosis, triage) VALUES
-    ('John', 'Doe', '1990-05-15', 'Male', 'Hypertension', 'Green'),
+    ('Brady', 'Goodwin', '1990-11-08', 'Male', 'IBS', 'Diahrea'),
+    ('Jannis', 'Ian', '1385-08-22', 'Female', 'IBS', 'Diahrea'),
+    ('Michael', 'Leo', '2022-01-10', 'Male', 'IBS', 'Diahrea'),
+    ('Emily', 'Diverson', '1995-03-28', 'Female', 'IBS', 'Diahrea');
+    ('Josue', 'Portillo', '2000-05-15', 'Male', 'IBS', 'Diahrea'),
+    ('Hannah', 'Huyck', '2015-08-30', 'Female', 'IBS', 'Diahrea'),
+    ('Mica', 'Magic', '2010-06-10', 'Male', 'IBS', 'Diahrea'),
+    ('Lily', 'Mulls', '2001-10-28', 'Female', 'Allergies', 'Sore Throat');
+    ('Adam', 'Angelo', '1990-06-25', 'Male', 'Tonsilitis', 'Sore Throat'),
+    ('Josephina', 'Shena', '1985-09-22', 'Female', 'Tonsilitis', 'Sore Throat'),
+    ('Atticus', 'Henry', '2002-10-30', 'Male', 'Tonsilitis', 'Sore Throat'),
+    ('Emerson', 'Poulin', '2007-08-28', 'Female', 'Tonsilitis', 'Sore Throat');
+    ('Donald', 'Duck', '1990-05-25', 'Male', 'Tonsilitis', 'Sore Throat'),
+    ('Gianna', 'Sellar', '1945-08-22', 'Female', 'Tonsilitis', 'Sore Throat'),
+    ('Brice', 'Hummer', '1972-11-10', 'Male', 'Tonsilitis', 'Sore Throat'),
+    ('Bryanna', 'Hutcherson', '1985-03-01', 'Female', 'Tonsilitis', 'Sore Throat');
+    ('Andrew', 'Luciano', '1990-02-09', 'Male', 'Tonsilitis', 'Sore Throat'),
+    ('Jane', 'Smith', '1985-08-22', 'Female', 'Tonsilitis', 'Sore Throat'),
+    ('Mike', 'Grayson', '2000-11-30', 'Male', 'D.O.A', 'N/A'),
+    ('Andria', 'Luconia', '2006-08-18', 'Female', 'D.O.A', 'N/A');
+    ('Jake', 'Brady', '1999-10-15', 'Male', 'D.O.A', 'N/A'),
+    ('Sydney', 'Emerson', '1985-08-22', 'Female', 'D.O.A', 'N/A'),
+    ('Matt', 'McCloskey', '1982-12-29', 'Male', 'D.O.A', 'N/A'),
+    ('Kylie', 'Greely', '1995-03-28', 'Female', 'D.O.A', 'N/A');
+    ('Eric', 'Cartman', '1990-05-15', 'Male', 'D.O.A', 'N/A'),
+    ('April', 'Kepner', '1985-08-22', 'Female', 'D.O.A', 'N/A'),
+    ('Jackson', 'Avery', '1942-12-10', 'Male', 'D.O.A', 'N/A'),
+    ('Emma', 'Harambe', '2005-08-28', 'Female', 'Allergies', 'Sneezing');
+    ('Christian', 'Cimino', '1999-05-15', 'Male', 'Hypochondriac', 'Psych Consult'),
+    ('Serena', 'Watson', '1985-04-22', 'Female', 'Blindness', 'Blurred Vision'),
+    ('Deshaun', 'Watson', '1972-09-30', 'Male', 'Blindness', 'Blurred Vision'),
+    ('Taylor', 'Swift', '1999-06-28', 'Female', 'Blindness', 'Blurred Vision');
+    ('Kanye', 'West', '1973-05-05', 'Male', 'Blindness', 'Blurred Vision'),
+    ('Kim', 'West', '2001-08-08', 'Female', 'Fractured Arm', 'Numbness in Fingers'),
+    ('Michael', 'Jackson', '1922-11-04', 'Fractured Arm', 'Numbness in Fingers'),
+    ('Kimberly', 'Lopez', '1905-03-03', 'Fractured Arm', 'Numbness in Fingers');
+    ('Atticus', 'Link', '2000-10-08', 'Male', 'Fractured Arm', 'Numbness in Fingers'),
+    ('Jane', 'Snow', '1988-08-01', 'Female', 'Fractured Arm', 'Numbness in Fingers'),
+    ('Michael', 'Lincoln', '2011-11-11', 'Male', 'Influenza', 'Coughing Blood'),
+    ('Emily', 'Williams', '1995-03-28', 'Female', 'Tumor', 'Hullocinations');
+    ('John', 'Powers', '1909-10-15', 'Male', 'Blindness', 'Blurred Vision'),
     ('Jane', 'Smith', '1985-08-22', 'Female', 'Fractured Arm', 'Yellow'),
-    ('Michael', 'Johnson', '1972-11-10', 'Male', 'Influenza', 'Red'),
-    ('Emily', 'Williams', '1995-03-28', 'Female', 'Allergies', 'Blue');
+    ('Mikey', 'Glynn', '1972-08-16', 'Male', 'Nose Reconstruction', 'Deviated Septum'),
+    ('Emily', 'Augusta', '1996-08-28', 'Female', 'Allergies', 'Sneezing');
+    ('Nick', 'Harris', '1990-09-30', 'Male', 'Migraines', 'Low White Blood Cells'),
+    ('Callie', 'Torres', '1985-08-22', 'Female', 'Fractured Leg', 'Leg Pains'),
+    ('Michael', 'Jordan', '1922-01-10', 'Male', 'COVID', 'Flu Like Symptoms'),
+    ('Lauren', 'Willis', '1915-03-28', 'Female', 'Tumor', 'Hullocinations');
+    ('Kate', 'Danta', '1990-05-30', 'Female', 'Depression', 'Sadness'),
+    ('Emily', 'Panz', '1965-11-22', 'Female', 'Hand Tremor', 'Anxiety'),
+    ('Jordan', 'McGary', '2001-11-10', 'Male', 'Tumor', 'Fainting'),
+    ('Giana', 'Berrioa', '2005-03-28', 'Female', 'Asthma', 'Breathing Trouble');
+    ('Delaney', 'York', '1990-05-15', 'Female', 'Asthma', 'Trouble Breathing'),
+    ('Anna', 'Brown', '2003-08-22', 'Female', 'Fractured Leg', 'Leg Pain'),
+    ('Blake', 'Harvey', '1962-11-10', 'Male', 'Tonsilitis', 'Sore Throat'),
+    ('Oscar', 'Humphrey', '1985-12-28', 'Male', 'Allergies', 'Sore Throat');
+    ('John', 'Downes', '1999-05-15', 'Male', 'Brain Tumor', 'Headaches'),
+    ('Jordan', 'Scott', '1975-08-22', 'Female', 'IBS', 'Diahrea'),
+    ('Michael', 'Scott', '1972-11-28', 'Male', 'Scratched Cornea', 'Blurred Vision'),
+    ('Tyler', 'Bernard', '1991-07-28', 'Male', 'Concussion', 'Headaches');
 
 -- Create a table for visits
 CREATE TABLE IF NOT EXISTS visits (
@@ -257,6 +313,74 @@ CREATE TABLE IF NOT EXISTS visits (
 -- Insert sample data into the visits table
 INSERT INTO visits (visit_date, patient_id, practitioner_id) VALUES
     ('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
+    ('2023-02-15', 2, 2),
+    ('2023-03-20', 3, 3),
+    ('2023-04-25', 4, 4);
+('2023-01-10', 1, 1),
     ('2023-02-15', 2, 2),
     ('2023-03-20', 3, 3),
     ('2023-04-25', 4, 4);
