@@ -75,8 +75,7 @@ INSERT INTO hospitals (name, city) VALUES
   (‘Oncologist’, ‘Lab’, 2); 
   (‘Allergy and Immunology’, ‘Emergency Room’, 4); 
   (‘Anesthesiologist’, ‘Operating Room’, 1); 
-  (‘Endocrinology’, ‘Scrub Room’, 3); 
-  
+  (‘Endocrinology’, ‘Scrub Room’, 3);   
   (‘Gynecology’, ‘Womans Health Center’, 6); 
   (‘Orthopedic Surgery’, ‘Trauma Center’, 2); 
   (‘Burn Center’, ‘Trauma Center’, 4); 
