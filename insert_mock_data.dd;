@@ -1,0 +1,19 @@
+INSERT INTO hospitals 
+(name, city)
+VALUES('Grey-Sloan Memorial', 'Seattle');
+
+INSERT INTO departments
+(name, building, floor)
+VALUES('Cardiology', 'Trauma Center', 3);
+
+INSERT INTO practitioners
+(name, profession, specialty)
+VALUES('Dr. Schmidt', 'Cardiologist', 'Cardiology');
+
+INSERT INTO patients
+(first_name, last_name, birthdate, gender, diagnosis, triage)
+VALUES('Brady', 'Goodwin', '1990-11-08', 'Male', 'IBS', 'Diahrea');
+
+INSERT INTO visits
+(visit_date, patient_id, practitioner_id)
+VALUES('2023-01-10', 1, 71);
